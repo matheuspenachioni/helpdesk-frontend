@@ -2,8 +2,8 @@
    <mat-drawer #drawer class="sidenav" mode="side">
       
       <img src="assets/img/nav.svg" alt="Imagem de navegação">
+      <p class="full-width">{{email}}</p>
       <mat-divider></mat-divider>
-
       <mat-nav-list class="nav-list">
          <a mat-list-item routerLink="home">
             <i class="material-icons">home</i>
@@ -26,7 +26,7 @@
             Github
          </a>
          <mat-divider></mat-divider>
-         <a mat-list-item>
+         <a mat-list-item (click)="logout()">
             <i class="material-icons">logout</i>
             Logout
          </a>

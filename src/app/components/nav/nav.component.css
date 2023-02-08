@@ -31,3 +31,8 @@ img {
     height: 7rem;
     margin: .8rem auto 1rem auto;
 }
+
+p {
+    text-align: center;
+    font-weight: bold;
+}
