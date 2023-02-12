@@ -29,6 +29,7 @@ import { LoginComponent } from './components/login/login.component';
 import { AuthInterceptorProvider } from './inteceptors/auth.interceptor';
 import { TecnicoListComponent } from './components/tecnico/tecnico-list/tecnico-list.component';
 import { TecnicoCreateComponent } from './components/tecnico/tecnico-create/tecnico-create.component';
+import { TecnicoUpdateComponent } from './components/tecnico/tecnico-update/tecnico-update.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { TecnicoCreateComponent } from './components/tecnico/tecnico-create/tecn
     HeaderComponent,
     LoginComponent,
     TecnicoListComponent,
-    TecnicoCreateComponent
+    TecnicoCreateComponent,
+    TecnicoUpdateComponent
   ],
   imports: [
     BrowserModule,
